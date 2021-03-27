@@ -1,0 +1,5 @@
+{"_id":{"$oid":"605bff5c13c3676b52b5b57d"},"requiredScore":{"$numberInt":"1"},"overdraftValue":"0","creditCardValue":"0","_class":"com.bank.account.entity.CreditCategory"}
+{"_id":{"$oid":"605bff7913c3676b52b5b57e"},"requiredScore":{"$numberInt":"2"},"overdraftValue":"1000","creditCardValue":"220","_class":"com.bank.account.entity.CreditCategory"}
+{"_id":{"$oid":"605bff9113c3676b52b5b57f"},"requiredScore":{"$numberInt":"6"},"overdraftValue":"2000","creditCardValue":"2000","_class":"com.bank.account.entity.CreditCategory"}
+{"_id":{"$oid":"605bff9c13c3676b52b5b580"},"requiredScore":{"$numberInt":"9"},"overdraftValue":"5000","creditCardValue":"15000","_class":"com.bank.account.entity.CreditCategory"}
+{"_id":{"$oid":"605d2540c8685c3d855a8322"},"requiredScore":{"$numberInt":"9"},"overdraftValue":"5000","creditCardValue":"15000","_class":"com.bank.account.entity.CreditCategory"}

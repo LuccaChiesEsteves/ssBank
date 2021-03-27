@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"ssBank.creditCategory"}],"uuid":"7709a7decc5e46a8ae95cecd1cedf3ea"}

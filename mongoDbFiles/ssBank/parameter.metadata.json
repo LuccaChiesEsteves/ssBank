@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"ssBank.parameter"}],"uuid":"070704f04ee140f3aaa314dde0eb4aee"}
