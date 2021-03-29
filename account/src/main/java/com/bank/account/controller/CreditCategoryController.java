@@ -14,7 +14,7 @@ import java.util.List;
 
 @Api(value = "Credit categories")
 @RestController
-@RequestMapping("creditCategories")
+@RequestMapping("/creditCategories")
 public class CreditCategoryController {
 
     @Autowired

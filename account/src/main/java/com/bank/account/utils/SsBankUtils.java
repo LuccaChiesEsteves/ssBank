@@ -1,9 +1,9 @@
 package com.bank.account.utils;
 
-import static java.util.Objects.isNull;
-
 import java.util.List;
 import java.util.Set;
+
+import static java.util.Objects.isNull;
 
 public class SsBankUtils {
 

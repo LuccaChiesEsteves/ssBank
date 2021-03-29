@@ -5,7 +5,6 @@ import com.bank.account.enumerator.ClientTypeEnum;
 import com.bank.account.enumerator.ResponseMessageEnum;
 import com.bank.account.repository.ClientRepository;
 import org.junit.Before;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.mockito.Mockito;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -17,7 +16,8 @@ import org.springframework.core.env.Environment;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertAll;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 @SpringBootTest(properties = "spring.main.allow-bean-definition-overriding=true")
 class ClientServiceTest {

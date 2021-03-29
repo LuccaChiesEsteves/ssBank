@@ -4,9 +4,11 @@ import com.bank.account.dto.AccountCreditCardDTO;
 import com.bank.account.entity.*;
 import com.bank.account.enumerator.AccountTypeEnum;
 import com.bank.account.enumerator.ClientTypeEnum;
-import com.bank.account.repository.*;
+import com.bank.account.repository.AccountRepository;
+import com.bank.account.repository.ClientRepository;
+import com.bank.account.repository.CreditCardRepository;
+import com.bank.account.repository.ParameterRepository;
 import org.junit.Before;
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
@@ -20,7 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.mockito.ArgumentMatchers.any;
 import static org.mockito.Mockito.when;
 
